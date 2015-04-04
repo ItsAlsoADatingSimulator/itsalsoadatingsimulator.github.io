@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    padding: 130px;
+	margin: auto;
+	width: 768px;
+    border: 50px;;
+    background-color: #272822;
+    color: white;
+}
+
+a {
+    color: #FF69B4;
+     text-decoration: none;
+}
+
+
+footer{ 
+    position: center;
+    font: 1em;
+    color: #C0C0C0;
+}
+
+li {
+    display: inline;
+    font-size: 1.3em;
+}
+
+p {
+    position: center;
+}
+
