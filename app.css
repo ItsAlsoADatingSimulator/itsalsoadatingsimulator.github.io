@@ -10,7 +10,10 @@ h3 {
 
 a {
     color: #FF69B4;
-     text-decoration: none;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    -webkit-transision: color 0.3s ease;
+    -moz-transision: color 0.3s ease;
 }
 
 footer{ 
@@ -26,6 +29,19 @@ li {
 }
 
 a:hover{
-    color: #4d0101;
+    color: #870202;
+    transision: color 0.3s ease;
+    -webkit-transision: color 0.3s ease;
+    -moz-transision: color 0.3s ease;
 }
 
+ .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+     transition: color 0.3s ease;
+     -webkit-transision: color 0.3s ease;
+     -moz-transision: color 0.3s ease;
+ }
+ .side-nav li a:not(.button), .side-nav li a:not(.button) {
+     transition: color 0.3s ease;
+     -webkit-transision: color 0.3s ease;
+     -moz-transision: color 0.3s ease;
+ }
